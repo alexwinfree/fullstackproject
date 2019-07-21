@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <h1> 
-      <button className= "search">  
+      <button className= "Search">  
         <input type= "text" placeholder=" Search here"></input>
       </button>
 
@@ -22,9 +22,10 @@ function App() {
           <button className= "Password">
             <input type="text" placeholder= "Password"></input>            
           </button>
+
+          <img src={logo} className="App-logo" alt="logo" />
       </h1>
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and reload! 
         </p>
