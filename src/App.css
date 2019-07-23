@@ -1,64 +1,44 @@
+body {
+  font-family: IBMPlexSans, Arial, sans-serif;
+}
+
 .App {
   text-align: Center;
   background-color: #282c34
   
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 12vmin;
-  pointer-events: none;
-  position: relative;
-  right: 1000px;
-  bottom: 25px;
-  top: 15px;
-  
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
+  height: 48px;
+  width: 100%;
+  background-color: rgb(26, 26, 27);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.header-button{
+  display: block;
+  background-color: transparent;
+  margin: 5px;
+  background-color: rgb(215, 218, 220);
+  color: rgb(26, 26, 27);
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-stretch: 100%;
+  font-size: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.reddit-icon {
+  height: 42px;
+  display: block;
+  width: 42px;
+  padding: 3px;
 
 }
 
-.LogIn{
-  position: relative;
-  bottom: 75px;
-  left: 700px;
-
-}
-.UserName{
-  position: relative;
-  bottom: 75px;
-  left: 705px;
-}
-
-.Password{
-  position: relative;
-  left: 560px;
-  bottom: 45px;
-}
-.Search{
-  position: relative;
-  left: 250px;
-  bottom: 70px; 
+.move-to-right {
+  display: flex;
+  flex-direction: row;
 }
