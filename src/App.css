@@ -6,133 +6,44 @@ body {
 .App {
   text-align: Center;
   background-color: #282c34
-  
 }
 
-
-.header{
-  height: 48px;
-  width: 100%;
-  background-color: rgb(26, 26, 27);
+header {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(26,26,27);
+  padding: 0 20px;
 }
-
-.header-button  {
-  display: block;
-  background-color: transparent;
-  margin: 5px;
-  background-color: rgb(215, 218, 220);
-  color: rgb(26, 26, 27);
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-stretch: 100%;
-  font-size: 12px;
-}
-
-
 
 .reddit-icon {
-  height: 42px;
+  height: 32px;
+  padding: 8px 8px 8px 0;
+  width: 32px;
+}
+
+.reddit-text {
   display: block;
-  width: 42px;
-  padding: 3px;
-
+  height: 18px;
+  margin-right: 20px;
+  width: auto;
 }
 
-.move-to-right {
-  display: flex; 
-  flex-direction: row;
-  
-  order: 4;
-  
-}
-.header-button{
-  align-items: right; 
-}
-.popularButton{
-  width: 160px;
-  height: 45px;
-  color: black;
-  bottom: 100px; 
-  display: flex;
-  flex-direction: row;  
-  order: 0;
-}
-
-.arrow
-{
-  
-  height: 22px;
-  width: 50px;
-  max-width: 300px;
+.flex-row {
   display: flex;
   flex-direction: row;
-  order: 2;
 }
 
-.graph
-{
-  height: 22px;
-  /* position: relative; left: 50px; bottom: 5px; */
-
-}
-.popular{
-  height: 2px;
-  width: 45px;
- 
-}
-
-.icons{
-  width: 30px;
-  position: relative; bottom: 5px;
-  background-color: white;
- display: flex;
- flex-direction: row;
- order: 0;  
-}
-
-.oc{
-  display: flex;
-  flex-direction: row;
- 
-}
-.arrow{
- display: flex;
- /* position: relative; bottom: 33px; */
-  
-}
-.drop-down{
-  width: 45px;
-  position:relative; bottom: 22px; left: 45px;
-  display: flex;
-  flex-direction: row;
-  order: 4;
-}
-
-.search{
-  width: 200px;
-  border-radius: 45px;
-  display: flex;
-  flex-direction: row;
-  order: 2;
-}
-
-
-.polupar-bar {
-  margin: 5px 0;
-  height: 100%;
-}
-
-.popular-button {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
+.align-center { 
   align-items: center;
-  justify-content: space-between;
-  background-color: white;
 }
 
+.header-menu {
+  width: 200px;
+  padding: 0 10px;
+  border: 1px solid rgb(100,100,100);
+  margin: 7px;
+  border-radius: 5px;
+}
